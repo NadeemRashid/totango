@@ -31,7 +31,7 @@ class Totango
 			'sdr_s'  =>	self::$service_id,
 			'sdr_u'  =>	$email,
 			'sdr_o'	 =>	$user_id,
-			'sdr_odn'=>	$account_type,
+			'sdr_odn'=>	$email,
 			'sdr_a'	 =>	$activity,
 			'sdr_m'  =>	$module,
 			'sdr_o.Create date'	=> date('c'),
